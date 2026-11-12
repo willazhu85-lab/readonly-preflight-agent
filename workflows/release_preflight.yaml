@@ -1,0 +1,17 @@
+version: 1
+steps:
+  - tool: evidence
+    required: true
+    run_when: always
+  - tool: impact
+    required: true
+    run_when: always
+  - tool: gate
+    required: true
+    run_when: always
+  - tool: advisory
+    required: false
+    run_when: always
+  - tool: draft
+    required: true
+    run_when: always
