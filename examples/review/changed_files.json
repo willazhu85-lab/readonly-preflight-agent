@@ -1,0 +1,4 @@
+[
+  "api/catalog.schema.json",
+  "src/catalog.py"
+]
